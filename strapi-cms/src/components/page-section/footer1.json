@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_section_footer1s",
+  "info": {
+    "displayName": "Footer1"
+  },
+  "options": {},
+  "attributes": {
+    "icons": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "text1": {
+      "type": "richtext"
+    },
+    "text2": {
+      "type": "richtext"
+    },
+    "text3": {
+      "type": "richtext"
+    }
+  }
+}

@@ -26,8 +26,11 @@ $ yarn generate
 #go to
 $ cd strapi-cms
 
+# install dependencies
+$ yarn install
+
 # Start your Strapi application with autoReload enabled.
-$ yarn develop
+$ yarn dev
 
 # Start your Strapi application with autoReload disabled.
 $ yarn start
@@ -35,3 +38,16 @@ $ yarn start
 # Build your admin panel.
 $ yarn build
 ```
+
+## Description
+
+A Boilerplate template of Nuxt.js 2 and Strapi v4. Strapi shows the basic implementation ans setup, to create multiple
+business websites with the finished components like Heros, Footers, BodyComponents like Galleries or a text and image etc...
+
+# Features
+
+* Latest Nuxt.js 2
+* Strapi v4
+* Tailwind CSS, Nuxt Fontawesome and SSR
+* Strapi Navigation Plugin
+* Strapi Preview Button Plugin

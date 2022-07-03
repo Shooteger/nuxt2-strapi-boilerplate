@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_page_section_footer2s",
+  "info": {
+    "displayName": "Footer2"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text1": {
+      "type": "string"
+    },
+    "text2": {
+      "type": "string"
+    },
+    "text3": {
+      "type": "string"
+    },
+    "text4": {
+      "type": "string"
+    },
+    "text5": {
+      "type": "string"
+    },
+    "social_media": {
+      "type": "json"
+    },
+    "copyright_text": {
+      "type": "richtext"
+    }
+  }
+}

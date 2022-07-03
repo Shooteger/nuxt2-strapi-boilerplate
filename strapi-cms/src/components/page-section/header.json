@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_page_section_headers",
+  "info": {
+    "displayName": "Hero1",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

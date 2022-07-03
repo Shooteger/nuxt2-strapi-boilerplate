@@ -31,12 +31,15 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/strapi'
+    '@nuxtjs/axios',
+    '@nuxtjs/fontawesome',
   ],
 
-  strapi: {
-    entities: ['restaurants', 'categories'],
-    url: 'http://localhost:1337'
+  fontawesome: {
+    icons: {
+      solid: true,
+      brands: true
+    }
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
