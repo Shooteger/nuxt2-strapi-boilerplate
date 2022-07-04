@@ -44,7 +44,13 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/strapi',
   ],
+
+  strapi: {
+    url: process.env.STRAPI_BASE_API_URL || 'http://localhost:1337/api/',
+    entities: ['pages'],
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

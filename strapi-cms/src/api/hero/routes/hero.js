@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * company router.
+ * hero router.
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::company.company');
+module.exports = createCoreRouter('api::hero.hero');

@@ -1,16 +1,18 @@
 {
   "collectionName": "components_page_section_footer1s",
   "info": {
-    "displayName": "Footer1"
+    "displayName": "Footer1",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "icons": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "text1": {
       "type": "richtext"

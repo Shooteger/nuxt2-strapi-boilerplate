@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_body_section_text_images",
+  "info": {
+    "displayName": "textImage"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,16 +1,18 @@
 {
   "collectionName": "components_page_section_footer2s",
   "info": {
-    "displayName": "Footer2"
+    "displayName": "Footer2",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "text1": {
       "type": "string"
