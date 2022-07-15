@@ -13,8 +13,8 @@
     "subtitle": {
       "type": "string"
     },
-    "description": {
-      "type": "richtext"
+    "link": {
+      "type": "json"
     }
   }
 }

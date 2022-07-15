@@ -25,7 +25,8 @@
       "type": "dynamiczone",
       "components": [
         "footer-section.footer1",
-        "footer-section.footer2"
+        "footer-section.footer2",
+        "footer-section.footer3"
       ]
     },
     "name": {
@@ -35,7 +36,8 @@
         }
       },
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true
     }
   }
 }

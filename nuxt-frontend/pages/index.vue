@@ -1,30 +1,24 @@
 <template>
   <section>
     <Hero />
+    <div>{{ pages }}</div>
     <Footer />
   </section>
 </template>
 
 <script>
-import axios from "axios";
+//import axios from "axios";
 
 export default {
-  data() {
+  data () {
     return {
-      website: [],
-      error: null,
-    };
-  },
-  async mounted() {
-    try {
-      this.website = await this.$strapi.find('company-name-website?populate=*');
-      /*
-      const response = await axios.get("http://localhost:1337/api/company-name-website?populate=*");
-      this.company = response.data;
-      */
-    } catch (error) {
-      this.error = error;
+      pages: []
     }
+  },
+  async fetch () {
+    this.pages = await this.$strapi.find(
+      "?populate[pageSection][populate][page]populate=*"
+    );
   },
 };
 </script>

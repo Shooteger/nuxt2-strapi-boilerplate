@@ -16,21 +16,6 @@
     }
   },
   "attributes": {
-    "hero": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::hero.hero"
-    },
-    "body_components": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::body-component.body-component"
-    },
-    "footers": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::footer.footer"
-    },
     "name": {
       "pluginOptions": {
         "i18n": {
@@ -40,6 +25,28 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "bodyComponent": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "body-section.3-columns-text",
+        "body-section.text-image"
+      ]
+    },
+    "heroes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::hero.hero"
+    },
+    "footers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::footer.footer"
     }
   }
 }

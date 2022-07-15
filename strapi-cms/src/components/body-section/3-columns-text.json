@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_body_section_3_columns_texts",
+  "info": {
+    "displayName": "3ColumnsText",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "column1": {
+      "type": "richtext"
+    },
+    "column2": {
+      "type": "richtext"
+    },
+    "column3": {
+      "type": "richtext"
+    }
+  }
+}

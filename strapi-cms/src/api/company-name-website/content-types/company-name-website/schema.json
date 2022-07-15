@@ -4,17 +4,21 @@
   "info": {
     "singularName": "company-name-website",
     "pluralName": "company-name-websites",
-    "displayName": "companyNameWebsite"
+    "displayName": "companyNameWebsite",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "pages": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::page.page"
+    "description": {
+      "type": "text"
+    },
+    "pageSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-builder.page-builder"
     }
   }
 }

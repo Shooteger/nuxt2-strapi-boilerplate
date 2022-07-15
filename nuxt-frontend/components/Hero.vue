@@ -2,7 +2,7 @@
   <div class="text-center bg-gray-50 text-gray-800 mt-20">
     <h1 class="text-5xl font-bold">Nuxt2 & Strapi v4 Boilerplate</h1>
     <h3 class="text-3xl font-bold mt-8">With Tailwind CSS and Axios</h3>
-    <nuxt-link
+    <a
       class="
         inline-block
         px-6
@@ -25,9 +25,10 @@
       "
       data-mdb-ripple="true"
       data-mdb-ripple-color="light"
-      to=""
+      href="https://github.com/Shooteger/nuxt2-strapi-boilerplate"
       role="button"
-      >View GitHub</nuxt-link
+      target="_blank"
+      >View GitHub Repository</a
     >
   </div>
 </template>

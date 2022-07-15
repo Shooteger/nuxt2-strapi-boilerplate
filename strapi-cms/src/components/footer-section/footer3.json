@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_footer_section_footer3s",
+  "info": {
+    "displayName": "Footer3"
+  },
+  "options": {},
+  "attributes": {
+    "socialMedia": {
+      "type": "json"
+    }
+  }
+}

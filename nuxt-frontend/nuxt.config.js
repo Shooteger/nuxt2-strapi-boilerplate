@@ -49,7 +49,7 @@ export default {
 
   strapi: {
     url: process.env.STRAPI_BASE_API_URL || 'http://localhost:1337/api/',
-    entities: ['pages'],
+    entities: ['pages', 'company-name-website'],
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

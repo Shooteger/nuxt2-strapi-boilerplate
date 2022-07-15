@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_builder_page_builders",
+  "info": {
+    "displayName": "PageBuilder",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    }
+  }
+}
